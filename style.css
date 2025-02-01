@@ -47,6 +47,7 @@ h1, h2, h3, p, ul {
 .hero-container {
     display: flex;
     gap: 447px;
+    margin-right: 150px;
 }
 .hero-title {
     font-size: 64px;
@@ -66,4 +67,158 @@ h1, h2, h3, p, ul {
     opacity: 50%;
     text-shadow: 0px 4px 4px 0px;
     margin-left: 150px;
+}
+/* second section */
+.destinations-container {
+    display: flex;
+    gap: 150px;
+}
+.destinations-title {
+    text-align: center;
+    font-size: 40px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+    padding-top: 80px;
+}
+.destinations-list {
+    display: flex;
+    gap: 30px;
+    padding-top: 50px;
+}
+.destinations-titletwo {
+    font-size: 36px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    padding-top: 30px;
+    text-align: center;
+}
+.destinations-text {
+    font-size: 24px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 15px;
+}
+.destinations-link {
+    font-size: 24px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 30px;
+    color: #7C7C7C;
+    text-transform: uppercase;
+    padding-bottom: 80px;
+}
+/* Третя секція */
+.blog {
+    background-color: #E6E6E6;
+}
+.blog-container {
+    display: flex;
+    gap: 150px;
+}
+.blog-title {
+    font-size: 40px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+    padding-top: 80px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.blog-card {
+    display: flex;
+    justify-content: space-around;
+}
+.blog-item {
+    background-color: #ffffff;
+    border-radius: 15px;
+    margin-left: 30px;
+}
+.blog-date {
+    font-size: 16px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+    padding-top: 25px;
+    margin-left: 40px;
+    color: #7C7C7C;
+}
+.blog-titletwo {
+    font-size: 24px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+    padding-top: 25px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.blog-texttwo {
+    font-size: 20px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: #7C7C7C;
+}
+/* Четверта секція */
+.gallery {
+    background-color: #001C2D;
+}
+.gallery-container {
+    display: flex;
+}
+.gallery-title {
+    font-size: 40px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    margin-left: 150px;
+    color: #ffffff;
+}
+.gallery-list {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 150px;
+}
+.gallery-item {
+    margin-right: 25px;
+    margin-bottom: 80px;
+}
+.links-title {
+    font-size: 40px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+    margin-top: 75px;
+    margin-left: 269px;
+    color: #ffffff;
+}
+.links-list {
+    margin-top: 50px;
+    margin-left: 269px;
+    display: flex;
+}
+.links-link {
+    font-size: 24px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+/* footer */
+.footer {
+    background-color: #001C2D;
+    border-top: 2px solid #FFFFFF;
+}
+.footer-container {
+    display: flex;
+}
+.footer-text {
+    color: #ffffff;
+    margin-top: 63px;
+    margin-bottom: 63px;
+    opacity: 50%;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    margin-left: 723px;
 }
