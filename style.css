@@ -1,4 +1,4 @@
-.body {
+body {
     font-family: "Quicksand", sans-serif;
     padding: 0;
     margin: 0;
@@ -13,6 +13,10 @@ h1, h2, h3, p, ul {
     margin: 0;
     padding: 0;
 }
+.container {
+    margin: 0px auto;
+    width: 1620px;
+}
 /* header */
 .header {
     padding-top: 60px;
@@ -22,7 +26,7 @@ h1, h2, h3, p, ul {
 }
 .header-container {
     display: flex;
-    margin-left: 424px;
+    justify-content: center;
 }
 .header-menu {
     display: flex;
@@ -30,7 +34,7 @@ h1, h2, h3, p, ul {
     gap: 95px;
 }
 .header-link {
-    text-transform: capitalize;
+    text-transform: uppercase;
     font-family: "Inter", sans-serif;
     align-items: center;
     font-size: 24px;
@@ -47,7 +51,7 @@ h1, h2, h3, p, ul {
 .hero-container {
     display: flex;
     gap: 447px;
-    margin-right: 150px;
+    align-items: center;
 }
 .hero-title {
     font-size: 64px;
@@ -55,8 +59,6 @@ h1, h2, h3, p, ul {
     font-family: "Quicksand", sans-serif;
     text-transform: capitalize;
     color: #ffffff;
-    padding-top: 170px;
-    margin-left: 150px;
 }
 .hero-text {
     font-size: 32px;
@@ -65,14 +67,9 @@ h1, h2, h3, p, ul {
     padding-top: 20px;
     color: #FFFFFF;
     opacity: 50%;
-    text-shadow: 0px 4px 4px 0px;
-    margin-left: 150px;
+    text-shadow: 0 4px 4px black;
 }
 /* second section */
-.destinations-container {
-    display: flex;
-    gap: 150px;
-}
 .destinations-title {
     text-align: center;
     font-size: 40px;
@@ -92,19 +89,22 @@ h1, h2, h3, p, ul {
     padding-top: 30px;
     text-align: center;
 }
+.destinations-item {
+    text-align: center;
+}
 .destinations-text {
     font-size: 24px;
     font-family: "Quicksand", sans-serif;
     font-weight: 500;
     text-align: center;
     padding-top: 15px;
+    padding-bottom: 30px;
 }
 .destinations-link {
     font-size: 24px;
     font-family: "Quicksand", sans-serif;
     font-weight: 500;
-    text-align: center;
-    padding-top: 30px;
+    display: inline-block;
     color: #7C7C7C;
     text-transform: uppercase;
     padding-bottom: 80px;
@@ -113,42 +113,41 @@ h1, h2, h3, p, ul {
 .blog {
     background-color: #E6E6E6;
 }
-.blog-container {
-    display: flex;
-    gap: 150px;
-}
 .blog-title {
     font-size: 40px;
     font-family: "Quicksand", sans-serif;
     font-weight: 600;
     padding-top: 80px;
+    padding-bottom: 50px;
     text-align: center;
     text-transform: capitalize;
 }
 .blog-card {
     display: flex;
     justify-content: space-around;
+    gap: 30px;
+    padding-bottom: 80px;
 }
 .blog-item {
     background-color: #ffffff;
     border-radius: 15px;
-    margin-left: 30px;
 }
 .blog-date {
     font-size: 16px;
     font-family: "Quicksand", sans-serif;
     font-weight: 600;
     padding-top: 25px;
-    margin-left: 40px;
     color: #7C7C7C;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 .blog-titletwo {
     font-size: 24px;
     font-family: "Quicksand", sans-serif;
     font-weight: 600;
     padding-top: 25px;
-    margin-left: 40px;
-    margin-right: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 .blog-texttwo {
     font-size: 20px;
@@ -156,9 +155,9 @@ h1, h2, h3, p, ul {
     font-weight: 600;
     padding-top: 20px;
     padding-bottom: 50px;
-    margin-left: 40px;
-    margin-right: 40px;
     color: #7C7C7C;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 /* Четверта секція */
 .gallery {
@@ -166,6 +165,7 @@ h1, h2, h3, p, ul {
 }
 .gallery-container {
     display: flex;
+    gap: 269px;
 }
 .gallery-title {
     font-size: 40px;
@@ -173,37 +173,38 @@ h1, h2, h3, p, ul {
     font-weight: 600;
     padding-top: 80px;
     padding-bottom: 50px;
-    margin-left: 150px;
     color: #ffffff;
 }
 .gallery-list {
     display: flex;
-    justify-content: space-around;
-    margin-left: 150px;
-}
-.gallery-item {
-    margin-right: 25px;
-    margin-bottom: 80px;
+    gap: 25px;
+    flex-wrap: wrap;
+    width: 500px;
+    padding-bottom: 80px;
 }
 .links-title {
     font-size: 40px;
     font-family: "Quicksand", sans-serif;
     font-weight: 600;
-    margin-top: 75px;
-    margin-left: 269px;
+    padding-top: 80px;
+    padding-bottom: 50px;
     color: #ffffff;
 }
 .links-list {
-    margin-top: 50px;
-    margin-left: 269px;
+    flex-wrap: wrap;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.links-item {
+    margin-bottom: 50px;
+    width: 45%;
 }
 .links-link {
     font-size: 24px;
     font-family: "Quicksand", sans-serif;
     font-weight: 600;
     color: #ffffff;
-    margin-bottom: 50px;
 }
 /* footer */
 .footer {
@@ -212,6 +213,7 @@ h1, h2, h3, p, ul {
 }
 .footer-container {
     display: flex;
+    justify-content: center;
 }
 .footer-text {
     color: #ffffff;
@@ -220,5 +222,4 @@ h1, h2, h3, p, ul {
     opacity: 50%;
     font-family: "Inter", sans-serif;
     font-size: 20px;
-    margin-left: 723px;
 }
