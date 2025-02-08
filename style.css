@@ -17,7 +17,7 @@ h1, h2, h3, p, ul {
 /* header */
 .header {
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 61px;
     border-bottom: 1px solid #ffffff;
     background-color: #0C70AC;
 }
@@ -163,6 +163,7 @@ h1, h2, h3, p, ul {
 /* Четверта секція */
 .gallery {
     background-color: #001C2D;
+    padding-bottom: 80px;
 }
 .gallery-container {
     display: flex;
@@ -181,7 +182,6 @@ h1, h2, h3, p, ul {
     gap: 25px;
     flex-wrap: wrap;
     width: 500px;
-    padding-bottom: 80px;
 }
 .links-title {
     font-size: 40px;
